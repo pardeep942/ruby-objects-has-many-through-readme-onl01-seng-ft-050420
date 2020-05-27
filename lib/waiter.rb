@@ -1,4 +1,4 @@
-class Meal
+class waiter
  
   attr_accessor :waiter, :customer, :total, :tip
  
