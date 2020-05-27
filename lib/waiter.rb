@@ -20,4 +20,6 @@ class Meal
     Meal.new(self, customer, total, tip)
   end
   
+  
+  
 end
