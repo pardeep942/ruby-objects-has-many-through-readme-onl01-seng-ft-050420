@@ -29,7 +29,7 @@ class Waiter
   end
  
   best_tipped_meal.customer
+  end
+ 
 end
- end
-  
  
