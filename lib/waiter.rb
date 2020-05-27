@@ -1,11 +1,11 @@
 class Waiter
-  attr_accessor :name, :
+  attr_accessor :name, :years of experience
   
   @@all = [ ]
   
   def intialize (name, age)
     @name = name
-    @age = age
+    @years of experience = years of experience
     @all << self
   
 end
@@ -13,6 +13,4 @@ end
    @@all
  end
  
-end
-
 end
