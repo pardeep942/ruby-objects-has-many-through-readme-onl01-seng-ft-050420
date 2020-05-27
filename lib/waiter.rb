@@ -1,17 +1,17 @@
-class Waiter
- 
-  attr_accessor :name, :yrs_experience
- 
-  @@all = []
- 
-  def initialize(name, yrs_experience)
-    @name = name
-    @yrs_experience = yrs_experience
-    @@all << self
-  end
- 
-  def self.all
-    @@all
-  end
- 
+class Meal
+attr_accessor :waiter, :customer, :total, :tip 
+
+
+end 	@@all=[]
+
+def initialize (waiter, customer, total, tip)
+  @waiter=waiter
+  @customer=customer
+  @total=total
+  @tip=tip 
+  @@all << self
 end
+
+def self.all
+  @@all
+end 
