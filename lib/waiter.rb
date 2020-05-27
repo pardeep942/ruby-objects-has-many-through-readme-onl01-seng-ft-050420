@@ -14,6 +14,7 @@ class waiter
  
   def self.all
     @@all
+end
   end
   
   
